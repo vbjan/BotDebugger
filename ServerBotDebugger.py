@@ -11,8 +11,8 @@ chrome_options.add_argument('--headless')
 chrome_options.add_argument('--no-sandbox')
 chrome_options.add_argument('--disable-dev-shm-usage')
 
-#PATH = "/usr/bin/chromedriver"
-PATH = "/Users/jan-philippvonbassewitz/bot_automation/chromedriver"
+PATH = "/usr/bin/chromedriver"
+#PATH = "/Users/jan-philippvonbassewitz/bot_automation/chromedriver"
 driver = webdriver.Chrome(PATH)
 print("Bot is successfully initialized")
 
