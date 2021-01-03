@@ -13,7 +13,7 @@ chrome_options.add_argument('--disable-dev-shm-usage')
 
 PATH = "/usr/bin/chromedriver"
 #PATH = "/Users/jan-philippvonbassewitz/bot_automation/chromedriver"
-driver = webdriver.Chrome(PATH, chrome_options=chrome_options)
+driver = webdriver.Chrome(PATH, options=chrome_options)
 print("Bot is successfully initialized")
 
 driver.get('https://www.asvz.ch/426-sportfahrplan?f[0]=facility:45598&f[1]=sport:122920')
